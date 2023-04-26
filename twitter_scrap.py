@@ -5,6 +5,7 @@ import datetime
 import pymongo
 import time
  
+ 
 # REQUIRED VARIABLES
 client = pymongo.MongoClient("mongodb://localhost:27017/")  # To connect to MONGODB
 mydb = client["Twitter_Database"]    # To create a DATABASE
